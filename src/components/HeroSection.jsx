@@ -40,7 +40,7 @@ const HeroSection = () => {
       </div>
 
       {/* Centered Logo with Bigger Size and Shadow Effect */}
-      <div className="absolute inset-0 flex justify-center items-start mt-8">
+      <div className="absolute inset-0 flex justify-center items-start mt-4 lg:mt-1">
         <div className="relative p-8 rounded-full bg-black bg-opacity-40 shadow-[0_0_50px_rgba(0,0,0,0.9)]">
           <img src={logo} alt="logo" className="w-36 h-36 md:w-40 md:h-40 drop-shadow-2xl" />
         </div>
@@ -61,8 +61,8 @@ const HeroSection = () => {
       >
         &#8594;
       </button>
-
-      <div className="absolute inset-0 flex flex-col justify-center items-center text-center md:mt-2 sm:mt-2 px-4 sm:px-6 md:px-8 lg:px-12 text-white gap-4">
+{/* herocontent section */}
+      <div className="absolute inset-0 flex flex-col justify-center items-center text-center md:mt-2 sm:mt-2 px-4 sm:px-6 md:px-8 lg:px-12 text-white gap-5">
   <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold drop-shadow-[0_4px_10px_rgba(0,0,0,0.8)]">
     EAST COAST INSPIRE
   </h1>
